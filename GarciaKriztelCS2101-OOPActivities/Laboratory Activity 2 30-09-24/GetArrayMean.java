@@ -14,7 +14,7 @@ public class GetArrayMean {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Manually create the Scanner
+        Scanner scanner = new Scanner(System.in); 
 
         try {
             System.out.print("Enter the number of elements: ");
@@ -30,7 +30,7 @@ public class GetArrayMean {
             double mean = getArrayMean(arr);
             System.out.println("Mean of array is: " + mean);
         } finally {
-            scanner.close(); // Manually close the Scanner
+            scanner.close();
         }
     }
 }
